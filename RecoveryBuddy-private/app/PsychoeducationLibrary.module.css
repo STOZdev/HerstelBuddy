@@ -1,0 +1,29 @@
+.library { margin:24px 0; padding:22px; border:1px solid #ded8f0; border-radius:22px; background:#faf8ff; color:#302b45; font-family:inherit; line-height:1.55; scroll-margin-top:20px; }
+.library[hidden] { display:none; }
+.library h2 { margin:0; font-size:23px; }
+.library h3 { font-size:18px; }
+.library label { display:block; margin:12px 0; }
+.library input:not([type=checkbox]),.library select { display:block; width:100%; box-sizing:border-box; border:1px solid #ada5bf; border-radius:10px; background:white; color:#302b45; padding:10px; font:inherit; }
+.library button { border:1px solid #c6bfde; border-radius:12px; padding:10px 14px; background:#f0ebff; color:#39305b; cursor:pointer; font:inherit; text-align:left; }
+.library button:hover { background:#e5dcfc; }
+.library button:disabled { opacity:.5; cursor:default; }
+.backButton { margin-bottom:14px; }
+.homeButton { margin-top:18px; }
+.detailView { margin-top:18px; padding-top:16px; border-top:1px solid #ded8f0; }
+.saveButton { display:block; width:100%; margin-top:18px; text-align:center !important; }
+.savedSection { margin-top:26px; padding-top:16px; border-top:2px solid #ded8f0; }
+.detailEyebrow { margin:0 0 8px; font-size:12px; font-weight:700; letter-spacing:.08em; color:#6550ab; }
+.library :focus-visible { outline:3px solid #6550ab; outline-offset:3px; }
+.row { display:flex; flex-wrap:wrap; gap:12px; align-items:center; }
+.row label { flex:1 1 190px; }
+.results { padding:0; list-style:none; }
+.results li { padding:14px 0; border-bottom:1px solid #ded8f0; }
+.results p { margin:8px 0; }
+.library .check { display:flex; align-items:flex-start; gap:10px; }
+.check input { flex-shrink:0; margin-top:5px; width:18px; height:18px; }
+.reading { margin:18px 0; padding-top:16px; border-top:1px solid #ded8f0; }
+.library video { width:100%; max-width:640px; }
+.library details { margin:16px 0; }
+.library summary { cursor:pointer; font-weight:600; }
+.library a { color:#4c3886; overflow-wrap:anywhere; }
+.error { color:#9b2336; white-space:pre-wrap; }
